@@ -1,0 +1,62 @@
+*{
+    padding: 0; margin: 0; 
+    text-decoration: none; list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto" , sans-serif;
+    overflow: hidden;
+}
+.container{
+    height: 100vh; width: 100vw;
+    background: url(https://thumbs.dreamstime.com/b/rosemary-herbs-dark-stone-background-copy-space-menu-recipe-flat-lay-143065221.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50% 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container:before{
+    content: ''; position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.content{
+    max-width: 700px;
+    padding: 2rem;
+    position: relative;
+    z-index: 1;
+}
+.content h1{
+    font-size: 4.3rem;
+    margin-bottom: 0.8rem;
+    color: #fff44f;
+    font-family: "Dancing Script", cursive;
+}
+.content p{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+.btn{
+    background-color: rgb(50, 48, 48);
+    color: #fff44f;
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    margin-top: 0.8em;
+    font-size: 1.1em; font-weight: 550;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+.btn:hover{
+    opacity: 0.7;
+}
+.contact h5{
+    display: flex;
+    color: rgb(222, 236, 249);
+    justify-content: end;
+    justify-items: end;
+    text-align: end;
+}
